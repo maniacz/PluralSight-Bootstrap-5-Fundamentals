@@ -20,25 +20,37 @@
             alt="Bethany's Pie Shop Logo">
           Bethany's Pie Shop
         </a>
-
+    
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
+    
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="nav navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="seasonalpies.html">Pies</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="nav-dropdown" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pies
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="nav-dropdown">
+                <li><a class="dropdown-item" href="fruitpies.html">Fruit Pies</a></li>
+                <li><a class="dropdown-item" href="cheesecakes.html">Cheese cakes</a></li>
+                <li><a class="dropdown-item" href="seasonalpies.html">Seasonal Pies</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="allpies.html">All pies</a></li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="order.html">Order</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html"></a>
+              <a class="nav-link active" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
